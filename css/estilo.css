@@ -3,3 +3,13 @@ body{color: black;}
 img{width: 15%;}
 h1{color: chocolate;}
 h2{color: chocolate;}
+
+body{background-color: darkseagreen;}
+hedaer{background-color: chartreuse;}
+
+/*Classe atribuída para a div receber o logotipo*/
+.logo{background-color: darkgreen;}
+nav{background-color: aquamarine;}
+main{background-color: cadetblue;}
+section{background-color: cyan;}
+footer{background-color: darkseagreen;}
