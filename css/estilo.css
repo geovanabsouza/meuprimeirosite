@@ -3,13 +3,30 @@ body{color: black;}
 img{width: 15%;}
 h1{color: chocolate;}
 h2{color: chocolate;}
+h1,h2{line-height: 3;}
+p{line-height: 1.5;}
+ul li{ line-height: 1.5;}
 
 body{background-color: darkseagreen;}
-hedaer{background-color: chartreuse;}
+header{
+    background-color: chartreuse;
+    padding: 3%;
+}
 
 /*Classe atribuída para a div receber o logotipo*/
 .logo{background-color: darkgreen;}
-nav{background-color: aquamarine;}
-main{background-color: cadetblue;}
+nav{background-color: rgb(12, 102, 12);}
+main{ 
+    background-color: cadetblue;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+ }
 section{background-color: cyan;}
-footer{background-color: darkseagreen;}
+footer{
+    background-color: rgb(12, 102, 12);
+    padding: 3%;
+}
+
+.cabecalho{padding: 3%;}
+.rodape{padding: 3%;}
