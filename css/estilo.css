@@ -1,17 +1,35 @@
 body{ background-color: aliceblue;}
 body{color: black;}
 img{width: 15%;}
-h1{color: chocolate;}
-h2{color: chocolate;}
+h1{color: chocolate;
+   font-size: 2em;}
+h2{color: chocolate;
+   font-size: 1.5em;}
 h1,h2{line-height: 3;}
-p{line-height: 1.5;}
-ul li{ line-height: 1.5;}
+.titulos{line-height: 1.2;
+         text-align: center;
+         font-weight: bold;
+         table{border-collapse: collapse;
+            width: 80%;
+            font-size: 1.2em;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2%;}
+            
+      td,th{border: 5px dashed #f00;
+            padding: 1.5%;}
+      
+      /* essa faz uma linha cor sim cor não */
+      tr:nth-child(even) {background-color: #dddddd;}}
+p{line-height: 1.5;
+  font-size: 1.2em;}
+ul li{line-height: 1.5;
+      font-size: 1.2em;}
 
 body{background-color: darkseagreen;}
 header{
     background-color: chartreuse;
-    padding: 3%;
-}
+    padding: 3%;}
 
 /*Classe atribuída para a div receber o logotipo*/
 .logo{background-color: darkgreen;}
