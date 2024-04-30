@@ -1,72 +1,110 @@
-body{background-color:  #8B0000;}
-img{width: 30%;}
-header{background-color: #8B0000;
-       padding: 3%;}
-
-/* Classe atribuída para a div  que vai receber o logotipo*/
-.logo{background-color:#F0F8FF;}
-nav{background-color: #F0F8FF;}
-main{background-color: #F0F8FF;
-     width: 80%;
-     margin-left: auto;
-     margin-right: auto;}
-section{background-color: #F0F8FF;}
-footer{background-color: #F0F8FF;
-       padding: 3%;}
-h1{background-color: #8B0000;
-   font-size: 2em;}
-h2{font-size: 1.5em;}
-h1,h2,h3{line-height: 3;}
-p{line-height: 1.5em;
-  font-size: 1.2em;}
-ul li{line-height: 1.5;
-      font-size: 1.2em;}
-.titulos{line-height: 3;
-         text-align: center;
-         font-weight: 100;}
-table,th,td{border: 1px solid;}
-table{
-       width: 100%;
+body{
+       background-color:darkred;
 }
+
+header{
+       background-color:darkred;
+       padding: 3%;
+}
+
+img{
+       width: 20%;
+}
+
+/*Classe Atribuída para a diuv que vai receber o logotipo*/
+.logo{
+       background-color:darkred;
+}
+
+nav{
+       background-color: aliceblue;
+}
+
+main{
+       background-color:antiquewhite;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+section{
+       background-color: aliceblue;
+}
+
+footer{
+       background-color: aliceblue;
+       padding: 3%;
+}
+
+.cabecalho{
+       padding: 3%;
+}
+
+.rodape{
+       padding: 3%;
+}
+
+h1, h2{
+       line-height: 3;
+}
+
+p{
+       line-height: 1.5;
+       font-size: 1.2em;
+}
+
+ul li{
+       line-height: 1.5;
+       font-size: 1.2em;
+}
+
+.titulos{
+       line-height: 3;
+       text-align: center;
+       font-weight: bold;
+}
+
+h1{
+       font-size: 2em;
+}
+h2{
+       font-size: 1.5em;
+}
+
 table{
        border-collapse: collapse;
+       width: 75%;
+       font-size: 1.2em;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 2%;
 }
-table{
+
+td,th{
+       border: 5px dashed #f00;
+       padding: 15px;
+       border-bottom: 1px solid black;
+}
+
+table, th, td{
        border: 1px solid;
 }
-table{
-       width: 100%;
-}
+
 th{
-       height: 70px;
-}
-table{
-       width: 50%;
-}
-td{
-       text-align: center;
-}
-th{
-       text-align: center;
-}
-td{
        height: 50px;
+       text-align: center;
+}
+
+td{
+       height: 20px;
+       text-align: center;
        vertical-align: bottom;
 }
 
-td, th{
-       padding: 15px;
-       text-align: center;
-}
-th, td{
-       border-bottom: 1px solid black;
-}
-tr:hover{background-color: #f76f6f;}
-tr: :nth-child(even) {
-    background-color: rgb (182, 232, 255)
-}
-th{
-       background-color: #8B0000;
-       color: white;
+/*essa faz uma linha cor sim e cor não*/
+
+tr:nth-child(even){
+       background-color: blueviolet;
 }
 
+tr:hover {background-color: coral;}
