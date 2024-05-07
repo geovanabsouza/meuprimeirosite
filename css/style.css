@@ -1,5 +1,6 @@
 body{
        background-color:darkred;
+       font-family: "Libre Baskerville", serif;
 }
 
 header{
@@ -124,3 +125,11 @@ tr:nth-child(even){
 }
 
 tr:hover {background-color: coral;}
+
+.libre-baskerville-regular {
+       font-family: "Libre Baskerville", serif;
+       font-weight: 400;
+       font-style: normal;
+}
+     
+     
