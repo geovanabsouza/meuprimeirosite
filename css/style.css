@@ -1,6 +1,7 @@
 body{
-       background-color:darkred;
+       background-color:aliceblue;
        font-family: "Libre Baskerville", serif;
+       text-align: center;
 }
 
 header{
@@ -15,6 +16,7 @@ img{
 /*Classe Atribuída para a diuv que vai receber o logotipo*/
 .logo{
        background-color:darkred;
+       text-align: left;
 }
 
 nav{
@@ -22,14 +24,14 @@ nav{
 }
 
 main{
-       background-color:antiquewhite;
+       background-color:aliceblue;
        width: 80%;
        margin-left: auto;
        margin-right: auto;
 }
 
 section{
-       background-color: aliceblue;
+       background-color: darkred;
 }
 
 footer{
@@ -52,6 +54,7 @@ h1, h2{
 p{
        line-height: 1.5;
        font-size: 1.2em;
+       color: whitesmoke;
 }
 
 ul li{
@@ -63,6 +66,14 @@ ul li{
        line-height: 3;
        text-align: center;
        font-weight: bold;
+       color: whitesmoke;
+}
+
+.title{
+       line-height: 3;
+       text-align: center;
+       font-weight: bold;
+       color: black;
 }
 
 h1{
@@ -107,6 +118,7 @@ td{
        margin-left: auto;
        margin-right: auto;
        display: block;
+       margin-top: 3%;
 }
 
 .image{
@@ -131,5 +143,7 @@ tr:hover {background-color: coral;}
        font-weight: 400;
        font-style: normal;
 }
+     
+     
      
      
