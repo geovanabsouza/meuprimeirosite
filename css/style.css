@@ -98,7 +98,7 @@ table{
        font-size: 1.2em;
        margin-left: auto;
        margin-right: auto;
-       margin-bottom: 2%;
+       padding-bottom: 3%;
 }
 
 td,th{
@@ -165,10 +165,10 @@ td{
 /*essa faz uma linha cor sim e cor não*/
 
 tr:nth-child(even){
-       background-color: blueviolet;
+       background-color: darkred;
 }
 
-tr:hover {background-color: coral;}
+tr:hover {background-color: floralwhite;}
 
 .libre-baskerville-regular {
        font-family: "Libre Baskerville", serif;
