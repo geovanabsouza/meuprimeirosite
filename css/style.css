@@ -5,7 +5,7 @@ body{
 }
 
 header{
-       background-color:antiquewhite;
+       background-color:whitesmoke;
        padding: 3%;
 }
 
@@ -15,7 +15,7 @@ img{
 
 /*Classe Atribuída para a diuv que vai receber o logotipo*/
 .logo{
-       background-color:aliceblue;
+       background-color:whitesmoke;
        text-align: left;
        width: 30%;
 }
@@ -41,7 +41,7 @@ footer{
 }
 
 .cabecalho{
-       padding: 3%;
+       padding: 1%;
 }
 
 .rodape{
@@ -78,12 +78,6 @@ ul li{
        color: black;
 }
 
-.title{
-       line-height: 3;
-       text-align: center;
-       font-weight: bold;
-       color: aliceblue;
-}
 
 h1{
        font-size: 2em;
@@ -145,6 +139,27 @@ td{
        margin-right: auto;
 }
 
+.menu{
+       justify-content: space-around;
+       display: flex;
+       margin-bottom: 3%;
+       margin-top: 3%;
+}
+
+a.menu:link{
+       color: white;
+       font-size: 1rem;
+}
+
+a.menu:visited{
+       color:white;
+}
+
+a.menu:hover{
+       color:#f00;
+       font-size: 1.5rem;
+}
+
 .col-3{
        width: 25%;
        padding-bottom: 3%;
@@ -161,6 +176,31 @@ td{
        margin-right: 1%;
 }
 
+.title{
+       line-height: 3;
+       text-align: center;
+       font-weight: bold;
+       color: aliceblue;
+       padding-top: 3%;
+}
+
+.referencias{
+       text-align: center;
+}
+
+a.referencias:link{
+       color: white;
+       font-size: 1rem;
+}
+
+a.referencias:visited{
+       color:white;
+}
+
+a.referencias:hover{
+       color:#f00;
+       font-size: 1.5rem;
+}
 
 /*essa faz uma linha cor sim e cor não*/
 
