@@ -116,14 +116,6 @@ td{
        vertical-align: bottom;
 }
 
-.center{
-       width: 60%;
-       margin-left: auto;
-       margin-right: auto;
-       display: block;
-       margin-top: 3%;
-}
-
 .image{
        width: 40%;
        margin-left: auto;
@@ -182,10 +174,12 @@ a.menu:hover{
        font-weight: bold;
        color: aliceblue;
        padding-top: 3%;
+       padding-bottom: 3%;
 }
 
 .referencias{
        text-align: center;
+       padding-bottom: 3%;
 }
 
 a.referencias:link{
@@ -202,6 +196,13 @@ a.referencias:hover{
        font-size: 1.5rem;
 }
 
+.banner{
+       margin-top: 3%;
+       width: 60%;
+       margin-left: auto;
+       margin-right: auto;
+}
+
 /*essa faz uma linha cor sim e cor não*/
 
 tr:nth-child(even){
@@ -214,6 +215,7 @@ tr:hover {background-color: floralwhite;}
        font-family: "Libre Baskerville", serif;
        font-weight: 400;
        font-style: normal;
+       display: block;
 }
      
      
