@@ -218,6 +218,23 @@ tr:hover {background-color: floralwhite;}
        display: block;
 }
      
-     
+.esquerda {
+       float:left;
+       width: 30%;
+       margin-left: 2%;
+       margin-right: 2%;
+}     
+
+.direita {
+       float:right;
+       width: 10%;
+       margin-left: 2%;
+       margin-right: 2%;
+}
+
+.pfigure {
+       padding-bottom: 3%;
+       text-align: left;
+}
      
      
