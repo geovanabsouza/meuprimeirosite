@@ -32,7 +32,7 @@ main{
 }
 
 section{
-       background-color: aliceblue;
+       background-color: white;
 }
 
 footer{
@@ -258,5 +258,31 @@ tr:hover {background-color: floralwhite;}
   [class*="col-"] {
     width: 100%;
   }
+}
+
+.container {
+       position: relative;
+}
+     
+.topleft {
+       position: absolute;
+       top: 8px;
+       left: 40px;
+       font-size: 18px;
+}
+     
+.coco {
+       width: 100%;
+       height: auto;
+       opacity: 0.5;
+       margin-top: 3%;
+       margin-bottom: 3%;
+}
+
+.topright {
+       position: absolute;
+       top: 8px;
+       right: 40px;
+       font-size: 18px;
 }
      
