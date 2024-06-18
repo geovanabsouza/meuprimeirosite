@@ -286,3 +286,9 @@ tr:hover {background-color: floralwhite;}
        font-size: 18px;
 }
      
+.bottom{
+       position: absolute;
+       top: 8px;
+       bottom: 40px;
+       font-size: 18px;
+}
