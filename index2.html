@@ -11,8 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/Logotipo.avif" alt="Um cabide em formato de mulher" class="logo">
+        </div>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul >
+                <li class="linha"> <a class="menu" href="index.html" onclick="document.getElementById('menu-toggle').click()">Home</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()">Zuzu Angel</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()"> Pat Bo</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()"> Balenciaga</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1 class="title">COCO CHANEL </h1>
+        <section>
+            <h2 class="titulos">Quem foi ela?</h2>
+            <p class="p"> A empresária e estilista francesa Gabrielle Bonheur "Coco" Chanel foi uma das pessoas mais influentes do século XX. Isto apenas ocorreu por conta de suas novas perspectivas sobre a moda, tornando o estilo 
+                feminino algo mais esportivo e radical para a época. Portanto, os tais "espartilhos" do momento, deram lugar a calças e aspectos masculinos para as "feminilidades" impostas, quebrando os paradigmas e ainda assim, 
+                mantendo sua elegância.  Apesar de seus reconhecimentos e contribução com a moda feminina, Chanel também conquistou grande respeito entre os acessórios e as fragrâncias que criava.
+            </p>
+            <div class="linha2">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/1932.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/Frange-Necklace-Chanel-1932.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/19323.webp" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/19322.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section> 
+            <h2 class="titulos">Curiosidades</h2>
+            <p class="p">Muitos admiram o trabalho da francesa, sua marca conquistou todo o mundo e serve de inspiração para diversas empresas do ramo da moda ainda hoje, no entanto, poucos sabem como eram 
+                feitas as suas peças deslumbrantes. Coco Chanel gosta de brincar com a elegância e a feminilidade, mas sempre trazendo um aspectos mais masculino/ confortável, a simplicidade que quebrava
+                os esteriótipos altos impostos pela sociedade. Através desta visão, ela utilizava desde pedras preciosas á uma simples moeda, os metais incrustados para criar acessórios e peças de alta-costura.
+                <p class="referencias"><a href="https://pt.wikipedia.org/wiki/Joalharia" target="_blank">Wikipédia</a>
+                </p>
+            </p>
+
+        </section>
         <section>
             <h2 class="titulos">Biografia</h2>
             <div class="container">
@@ -23,4 +77,8 @@
             </div>
         </section>
     </main>
+    <footer class="rodape">
+        <p class="paragrafo"> Desenvolvido por: Geovana de Brito</p>
+    </footer>
 </body>
+</html>

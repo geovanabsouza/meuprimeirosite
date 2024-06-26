@@ -15,12 +15,15 @@
         <div class="logo">
             <img src="img/Logotipo.avif" alt="Um cabide em formato de mulher" class="logo">
         </div>
-        <nav>
-            <ul class="menu">
-                <li class="linha"> <a class="menu" href="#">História da Moda</a></li>
-                <li class="linha"> <a class="menu" href="#">Zuzu Angel</a></li>
-                <li class="linha"> <a class="menu" href="index2.html">Coco Chanel</a></li>
-                <li class="linha"> <a class="menu" href="#"> Pat Bo</a></li>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()">História da Moda</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()">Zuzu Angel</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()"> Pat Bo</a></li>
+                <li class="linha"> <a class="menu" href="#" onclick="document.getElementById('menu-toggle').click()"> Balenciaga</a></li>
+                <li class="linha"> <a class="menu" href="index2.html" onclick="document.getElementById('menu-toggle').click()">Coco Chanel</a></li>
             </ul>
         </nav>
     </header>
