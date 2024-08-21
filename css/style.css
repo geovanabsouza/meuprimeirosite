@@ -288,7 +288,15 @@ tr:hover {background-color: floralwhite;}
        margin-right: 2%;
        margin-bottom: 2%;
        margin-top: 2%;
-}     
+}
+
+.esquerda2{
+       float:left;
+       width: 30%;
+       margin-left: 2%;
+       margin-right: 2%;
+       margin-bottom: 2%;
+}
 
 .direita {
        float:right;
